@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBE2077F-E7CB-E8D8-FBE6-0DE1B5EB85BF" name="Iot">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:17:44 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="iot_hash" id="01CBAAF2-E68B-73CC-EF0F-7D3EAB2150D6">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:17:51 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="8C3D4437-0D80-0BD5-F597-AE1B0419C48E">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:18:11 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="D1E4620B-BCAB-8C60-8151-5FFB80D5B30A">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:18:24 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,3,5</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7959136-6FEE-6232-4532-FDA0B26A511F" name="Iot PK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:18:10 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01CBAAF2-E68B-73CC-EF0F-7D3EAB2150D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

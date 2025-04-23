@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D52787E-871D-4471-668F-8F54C435348C" name="Motorbike">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>05F259B8-973A-3AF7-0417-FF3ED1050CCB</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_moto" id="AD0CC376-5D5A-1AEC-1C1B-680F760FAFDA">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>713172BB-179F-FF13-5B1E-5C8A0470751C</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="5E7D80C0-B071-701E-A3CA-3F6856AA84B6">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>1634A15A-1285-4EA4-F706-FEEBD8FBA091</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_motor" id="46B94EB8-665A-0BC9-CA91-7CFD2908BCF6">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>357961D4-0CCA-A22C-672F-B06C9E621CD0</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iot_iot_hash" id="0B2833FC-9BAB-1B21-BEB5-C674B22FFF36">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>009978C6-1FAF-E743-9553-4CEBD85CD6CE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D788EECD-BAC4-CA28-8960-7ACF43C6CEB7" referredColumn="CFCA08FE-CF35-BD4C-0824-CD44A6571211"/>
+</associations>
+</Column>
+<Column name="Status_id_stat" id="2ED511EA-177D-2820-59FF-2988F8013811">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>20402470-B467-956E-88F5-ED385EAE2811</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="399FD4A8-65A5-F6E5-6268-900EE70567A0" referredColumn="414856EA-570B-728E-7A7A-3B375B50CEE2"/>
+</associations>
+</Column>
+<Column name="Motorbike_Lot_id_lot" id="4B2E7F38-088D-07CB-3A6E-05DD0FCB056B">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>F0F2DFB0-9EB1-EE2A-17FB-E8CAC6F07A9A</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D32B2EA-8704-A6EF-4BCB-81468D846968" referredColumn="6DBD08EC-E498-33B8-43FC-01B42AEC6C9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAF947D4-36DB-CFAC-C83B-56B6BCD5C465" name="Motorbike_PK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>956BBEF9-0FDD-88C6-EE6B-D897E521669C</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD0CC376-5D5A-1AEC-1C1B-680F760FAFDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D895AFEA-6C0C-DAEB-7E98-BB8F08E31483" name="Motorbike__IDX">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7F1E75A2-8DCB-1FFE-49CA-04D8AB352193</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0B2833FC-9BAB-1B21-BEB5-C674B22FFF36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFA2DDBC-935E-3068-B6AC-13A763315D38" name="Motorbike_Iot_FK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>7F1E75A2-8DCB-1FFE-49CA-04D8AB352193</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2833FC-9BAB-1B21-BEB5-C674B22FFF36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E519C6E-28E3-F424-C4F1-F1754237C7FD" name="Motorbike_Status_FK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>6A5923B4-07E9-4009-AB89-4E8C1C2D163A</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ED511EA-177D-2820-59FF-2988F8013811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3A8FA1A-FE05-B2DA-91DE-B2287B2C1953" name="Motorbike_Motorbike_Lot_FK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>FA9FA02D-34E5-B8B8-9D9F-61DCBCB8D7FE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B2E7F38-088D-07CB-3A6E-05DD0FCB056B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

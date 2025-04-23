@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05F259B8-973A-3AF7-0417-FF3ED1050CCB" name="Motorbike">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 17:57:46 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_moto" id="713172BB-179F-FF13-5B1E-5C8A0470751C">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 17:58:14 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="1634A15A-1285-4EA4-F706-FEEBD8FBA091">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 17:59:57 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_motor" id="357961D4-0CCA-A22C-672F-B06C9E621CD0">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:00:42 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iot_hash" id="009978C6-1FAF-E743-9553-4CEBD85CD6CE">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:19:40 UTC</createdTime>
+<generatorID>7F1E75A2-8DCB-1FFE-49CA-04D8AB352193</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<referedAttribute>01CBAAF2-E68B-73CC-EF0F-7D3EAB2150D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_stat" id="20402470-B467-956E-88F5-ED385EAE2811">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:19:56 UTC</createdTime>
+<generatorID>6A5923B4-07E9-4009-AB89-4E8C1C2D163A</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<referedAttribute>29266F0A-39B6-77AB-E502-77747D3B7FBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lot" id="F0F2DFB0-9EB1-EE2A-17FB-E8CAC6F07A9A">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:20:05 UTC</createdTime>
+<generatorID>FA9FA02D-34E5-B8B8-9D9F-61DCBCB8D7FE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<referedAttribute>850396E9-BBC6-57AE-AB0D-8357B69E326B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="956BBEF9-0FDD-88C6-EE6B-D897E521669C" name="Motorbike PK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 17:58:46 UTC</createdTime>
+<ownerDesignName>modelagem</ownerDesignName>
+<engineerTo>
+<item key="B979E110-A049-5C1E-353F-311023EB9DC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>713172BB-179F-FF13-5B1E-5C8A0470751C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D32B2EA-8704-A6EF-4BCB-81468D846968" containerWithKeyObject="9D52787E-871D-4471-668F-8F54C435348C" localFKIndex="B3A8FA1A-FE05-B2DA-91DE-B2287B2C1953" name="Motorbike_Motorbike_Lot_FK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>FA9FA02D-34E5-B8B8-9D9F-61DCBCB8D7FE</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>Motorbike_Lot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74F7C8B2-F61D-C996-6BA7-17BFFB96C0D7</referredTableID>
+<keyObject>1B2D655D-9956-D47F-B25A-1A801F65A5B1</keyObject>
+<referredKeyID>1B2D655D-9956-D47F-B25A-1A801F65A5B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lot</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

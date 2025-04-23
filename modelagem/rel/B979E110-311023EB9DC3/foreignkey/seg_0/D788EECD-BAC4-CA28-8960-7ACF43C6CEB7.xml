@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D788EECD-BAC4-CA28-8960-7ACF43C6CEB7" containerWithKeyObject="9D52787E-871D-4471-668F-8F54C435348C" localFKIndex="FFA2DDBC-935E-3068-B6AC-13A763315D38" name="Motorbike_Iot_FK">
+<createdBy>otavi</createdBy>
+<createdTime>2025-04-22 18:33:56 UTC</createdTime>
+<generatorID>7F1E75A2-8DCB-1FFE-49CA-04D8AB352193</generatorID>
+<ownerDesignName>modelagem</ownerDesignName>
+<referredTableLongName>Iot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3CE9D379-1591-A8F6-9C81-423E3F2AB10C</referredTableID>
+<keyObject>9E3D714A-5D7E-B056-D8BD-8B0E1454BA02</keyObject>
+<referredKeyID>9E3D714A-5D7E-B056-D8BD-8B0E1454BA02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>iot_hash</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
